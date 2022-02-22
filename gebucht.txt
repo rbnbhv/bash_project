@@ -1,0 +1,13 @@
+zeitraum platz1 platz2 platz3 platz4
+07:00-08:00 Ruben_Allenstein frei frei frei
+08:00-09:00 frei frei frei frei
+09:00-10:00 frei frei frei frei
+10:00-11:00 frei frei frei frei
+11:00-12:00 frei frei frei frei
+12:00-13:00 frei frei frei frei
+13:00-14:00 frei frei frei frei
+14:00-15:00 frei frei frei frei
+15:00-16:00 frei frei frei frei
+16:00-17:00 frei frei frei frei
+17:00-18:00 frei frei frei frei
+

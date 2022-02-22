@@ -1,0 +1,99 @@
+/* ALLGEMEIN */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri, sans-serif;
+
+}
+
+/* NAVIGATION */
+
+#navigation {
+    background-color: #8c8c8c;
+}
+
+#banner {
+    background: url(teamlogo.jpg);
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    z-index: 0;
+    text-align: center;
+}
+
+#banner h1 {
+    padding-top: 120px;
+    padding-left: 200px;
+    text-align: left;
+    color: #274e71;
+    font-size: 4em;
+}
+
+#banner hr {
+    width: 600px;
+}
+
+#menu {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+#menu a {
+  float: left;
+  border-right: 1px solid #bbb;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+
+
+#menu a:hover:not(.active) {
+  background-color: #111;
+}
+
+#menu .login {
+    float: right;
+    padding-right: 30px;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #333;
+}
+
+#inhalt {
+    border: solid;
+    margin-top: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 960px;
+}
+
+#inhalt img {
+    height: 250px;
+    width: 200px;
+}
+
+#inhalt .ueber_uns {
+
+}
+
+#login {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#formular {
+    float: left;
+}
+
+#formular .input {
+    float: right;
+}
+
+
