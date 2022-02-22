@@ -15,7 +15,7 @@ echo "Content-type: text/html
               <h1>Platzreservierung</h1>
             </div>
             <p id='menu'>
-            <a href='index.html'>Home</a>
+            <a href='index.sh'>Home</a>
             <a href='#' id='booking.sh'>Platz buchen!</a>
             <a href='#' id='123'>Register</a>
             </p>
@@ -60,4 +60,3 @@ echo "Content-type: text/html
       </div>
     </body>
 </html>"
-

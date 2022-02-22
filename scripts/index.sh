@@ -28,13 +28,6 @@ echo "Content-type: text/html
           <div id='tabelle'>
             <table>
 
-            <tr>
-                <td>Zeitraum</td>
-                <td>Platz1</td>
-                <td>Platz2</td>
-                <td>Platz3</td>
-                <td>Platz4</td>
-            </tr>
             "
 
             while read zeitraum platz1 platz2 platz3 platz4;
@@ -48,7 +41,7 @@ echo "Content-type: text/html
                     <td><a href="booking.sh"><div>$platz4</div></a></td>
               </tr>
               ";
-            done <<< $(cat gebucht.txt)
+            done <<< $(cat /var/www/html/writable/gebucht.txt)
 
 
             echo "
@@ -58,4 +51,3 @@ echo "Content-type: text/html
     </body>
 </html>
 "
-
