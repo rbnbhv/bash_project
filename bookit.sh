@@ -84,7 +84,7 @@ done <<< $(cat gebucht.txt)
 
   sed -i "s/07:00-08:00 frei frei frei frei/07:00-08:00 Ruben_Allenstein frei frei frei/g" gebucht.txt
   echo "SED: s/$tmp2/$tmp3/ <br>"
-  sed -i "s/${tmp2}/${tmp3}/g" gebucht.txt
+#  sed -i "s/${tmp2}/${tmp3}/g" gebucht.txt
 echo "<br><br> TMP: $tmp";
 
 if [[ $tmp == "frei" ]]
